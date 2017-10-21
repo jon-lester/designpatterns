@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Singleton
 {
-    public class Client
+    class Client
     {
         public void DoUsefulWork()
         {

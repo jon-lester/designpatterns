@@ -9,7 +9,7 @@ namespace DesignPatterns.Singleton
     /// <summary>
     /// This version of singleton is thread-safe.
     /// </summary>
-    public class ThreadSafeSingleton
+    class ThreadSafeSingleton
     {
         // while it would be possible to attempt to use locking within the Instance
         // property to initialise the _instance class variable in a thread-safe way,
