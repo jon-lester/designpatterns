@@ -47,10 +47,24 @@
     <Compile Include="Adapter\OldTextFormatParser.cs" />
     <Compile Include="Adapter\OldTextFormatParserToIParserAdapter.cs" />
     <Compile Include="Adapter\ParserFactory.cs" />
+    <Compile Include="Decorator\Client.cs" />
+    <Compile Include="Decorator\IHtmlFormatter.cs" />
+    <Compile Include="Facade\Client.cs" />
+    <Compile Include="Facade\OrderingSystemFacade.cs" />
+    <Compile Include="Facade\Subsystem\AuditlogSystem.cs" />
+    <Compile Include="Facade\Subsystem\CustomerVerifier.cs" />
+    <Compile Include="Facade\Subsystem\OrderProcessor.cs" />
+    <Compile Include="Facade\Subsystem\StockChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Client.cs" />
+    <Compile Include="Proxy\Customer.cs" />
+    <Compile Include="Proxy\CustomerRepository.cs" />
+    <Compile Include="Proxy\CustomerRepositoryCachingProxy.cs" />
+    <Compile Include="Proxy\ICustomerRepository.cs" />
     <Compile Include="Singleton\Client.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Singleton\ThreadSafeSingleton.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

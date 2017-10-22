@@ -13,6 +13,9 @@ namespace DesignPatterns.Adapter
     /// as opposed to a class adapter which would subclass it
     /// (thus opting for composition over inheritance in this
     /// implementation).
+    /// 
+    /// Note - the adapter pattern changes the interface of the
+    /// adapted code to comply with a new interface.
     /// </summary>
     class OldTextFormatParserToIParserAdapter : ITextParser
     {
