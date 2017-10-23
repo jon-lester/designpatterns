@@ -47,8 +47,15 @@
     <Compile Include="Adapter\OldTextFormatParser.cs" />
     <Compile Include="Adapter\OldTextFormatParserToIParserAdapter.cs" />
     <Compile Include="Adapter\ParserFactory.cs" />
+    <Compile Include="Decorator\AntiPattern\Client.cs" />
+    <Compile Include="Decorator\AntiPattern\FunctionalityA.cs" />
+    <Compile Include="Decorator\AntiPattern\FunctionalityB.cs" />
+    <Compile Include="Decorator\Common\IDoesSomething.cs" />
+    <Compile Include="Decorator\Common\LegacyClass.cs" />
     <Compile Include="Decorator\Client.cs" />
-    <Compile Include="Decorator\IHtmlFormatter.cs" />
+    <Compile Include="Decorator\LegacyClassDecoratorA.cs" />
+    <Compile Include="Decorator\LegacyClassDecoratorB.cs" />
+    <Compile Include="Decorator\LegacyClassDecoratorC.cs" />
     <Compile Include="Facade\Client.cs" />
     <Compile Include="Facade\OrderingSystemFacade.cs" />
     <Compile Include="Facade\Subsystem\AuditlogSystem.cs" />
