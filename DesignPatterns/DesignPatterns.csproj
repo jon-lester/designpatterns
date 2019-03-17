@@ -47,6 +47,10 @@
     <Compile Include="Adapter\OldTextFormatParser.cs" />
     <Compile Include="Adapter\OldTextFormatParserToIParserAdapter.cs" />
     <Compile Include="Adapter\ParserFactory.cs" />
+    <Compile Include="Builder\ApiConnection.cs" />
+    <Compile Include="Builder\ApiConnectionBuilder.cs" />
+    <Compile Include="Builder\Client.cs" />
+    <Compile Include="Builder\FluentApiConnectionBuilder.cs" />
     <Compile Include="Decorator\AntiPattern\Client.cs" />
     <Compile Include="Decorator\AntiPattern\FunctionalityA.cs" />
     <Compile Include="Decorator\AntiPattern\FunctionalityB.cs" />
@@ -62,6 +66,16 @@
     <Compile Include="Facade\Subsystem\CustomerVerifier.cs" />
     <Compile Include="Facade\Subsystem\OrderProcessor.cs" />
     <Compile Include="Facade\Subsystem\StockChecker.cs" />
+    <Compile Include="Factory\AntipatternService.cs" />
+    <Compile Include="Factory\Client.cs" />
+    <Compile Include="Factory\Interfaces\IDatabaseConnection.cs" />
+    <Compile Include="Factory\Interfaces\IDatabaseConnectionFactory.cs" />
+    <Compile Include="Factory\Interfaces\IService.cs" />
+    <Compile Include="Factory\MySqlDatabaseConnection.cs" />
+    <Compile Include="Factory\MySqlDatabaseConnectionFactory.cs" />
+    <Compile Include="Factory\AccessDatabaseConnection.cs" />
+    <Compile Include="Factory\AccessDatabaseConnectionFactory.cs" />
+    <Compile Include="Factory\Service.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\Client.cs" />
     <Compile Include="Proxy\Customer.cs" />

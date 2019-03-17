@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DesignPatterns.Facade.Subsystem;
 
 namespace DesignPatterns.Facade
@@ -10,8 +7,6 @@ namespace DesignPatterns.Facade
     /// <summary>
     /// This class implements the facade pattern to conceal the complexity
     /// of the ordering subsystem from client code.
-    /// 
-    /// Note - the facade pattern implements a new interface to reduce complexity.
     /// </summary>
     class OrderingSystemFacade
     {
