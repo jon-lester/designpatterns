@@ -85,6 +85,11 @@
     <Compile Include="Singleton\Client.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Singleton\ThreadSafeSingleton.cs" />
+    <Compile Include="Strategy\Client.cs" />
+    <Compile Include="Strategy\ISerialisationStrategy.cs" />
+    <Compile Include="Strategy\JsonSerialisationStrategy.cs" />
+    <Compile Include="Strategy\Service.cs" />
+    <Compile Include="Strategy\XmlSerialisationStrategy.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
